@@ -3,7 +3,7 @@
 ## Howto
 
 ```bash
-docker run -d --restart always --name mysslh -v $(pwd):/etc/sslh -p 443:443 --net host redbeard/sslh:0.1
+docker run -d --restart always --name mysslh -v $(pwd):/etc/sslh -p 443:443 --net host redbeard28/sslh
 ```
 
 options:
